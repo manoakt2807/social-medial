@@ -1,0 +1,52 @@
+.table-select{
+    display: flex;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+.header-bgc{
+    background: rgba(223, 17, 58, 0.882);
+    height: 70px;
+}
+
+.send-convo svg{
+    background-color: #8231d3;
+    padding: 11px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+.messager{
+    border-radius: 25px ;
+    border: 0;
+    background-color: #f7f7f7;
+    resize: none;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+.dashboard-icon{
+    background-color: #e3c4ff;
+    width: 32px;
+    height: 32px;
+    padding: 2px 4px;
+    border-radius: 7px;
+    color: #8231d3;
+}
+
+.table-icons svg{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.error-feild{
+    color:red;
+}
+
+.email-inp{
+    border: 3px solid red ;
+}

@@ -1,0 +1,41 @@
+{
+  "tickets": [
+    {
+      "name": "Karthikeyan",
+      "email": "karthi@outlook.com",
+      "subject": "Need Outlook to be configured",
+      "priority": "Medium",
+      "status": "Closed",
+      "description": "From Web Version of Outlook, want to move to App",
+      "id": 3
+    },
+    {
+      "name": "Mohit",
+      "email": "mohit@outlook.com",
+      "subject": "Network Issue",
+      "priority": "Medium",
+      "status": "Pending",
+      "description": "Erratic, as the network goes off in between for few seconds.",
+      "id": 6
+    },
+    {
+      "name": "manoj",
+      "email": "manoj@mail.com",
+      "subject": "Test Ticket",
+      "priority": "High",
+      "status": "Closed",
+      "description": "Test ticket to open check for new ticket",
+      "id": 7
+    },
+    {
+      "name": "new test",
+      "email": "manoj@manil.ocm",
+      "subject": "maths",
+      "priority": "Medium",
+      "status": "Open",
+      "description": "data",
+      "createdDate": "2023-03-21T05:40:44.664Z",
+      "id": 8
+    }
+ ]
+}

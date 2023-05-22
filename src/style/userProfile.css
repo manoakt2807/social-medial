@@ -1,0 +1,99 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 0.50rem;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.message-button {
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #c8c8c8;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.following-button {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #c8c8c8;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logo-name {
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo-name-des {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #939292;
+    font-size: 14px;
+}
+
+.msg-follow-img {
+    margin-top: -3px;
+    margin-right: 3px;
+}
+
+.msg-follow-font {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #fffefe;
+    margin: 20px 0;
+}
+
+/* .count-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.count-item {
+    margin: 0 10px;
+}
+
+.count-number {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.count-name {
+    font-size: 11px;
+    color: #939292
+}
