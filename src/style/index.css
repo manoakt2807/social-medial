@@ -50,3 +50,7 @@ body{
 .email-inp{
     border: 3px solid red ;
 }
+
+.error-feild {
+    color: red;
+}

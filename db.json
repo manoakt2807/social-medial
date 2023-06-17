@@ -1,41 +1,78 @@
 {
-  "tickets": [
+  "users": [
     {
-      "name": "Karthikeyan",
-      "email": "karthi@outlook.com",
-      "subject": "Need Outlook to be configured",
-      "priority": "Medium",
-      "status": "Closed",
-      "description": "From Web Version of Outlook, want to move to App",
-      "id": 3
-    },
-    {
-      "name": "Mohit",
-      "email": "mohit@outlook.com",
-      "subject": "Network Issue",
-      "priority": "Medium",
-      "status": "Pending",
-      "description": "Erratic, as the network goes off in between for few seconds.",
-      "id": 6
-    },
-    {
-      "name": "manoj",
+      "name": "Manoj Kumar M",
+      "role": "Developer",
       "email": "manoj@mail.com",
-      "subject": "Test Ticket",
-      "priority": "High",
-      "status": "Closed",
-      "description": "Test ticket to open check for new ticket",
-      "id": 7
+      "password": "password",
+      "mobile": "9876543210",
+      "address": "Kallakurichi",
+      "pincode": "606207",
+      "bio": "React",
+      "id": 1,
+      "coverImg": "assest/banner/images3.jpg",
+      "logo": "assest/avatar/alpha-men.jpg"
     },
     {
-      "name": "new test",
-      "email": "manoj@manil.ocm",
-      "subject": "maths",
-      "priority": "Medium",
-      "status": "Open",
-      "description": "data",
-      "createdDate": "2023-03-21T05:40:44.664Z",
-      "id": 8
+      "name": "Sundar Saar",
+      "role": "Tester",
+      "email": "sundar@saar.in",
+      "password": "password",
+      "mobile": "9874563210",
+      "address": "Kallakurichi",
+      "pincode": "606207",
+      "bio": "Civil engineer, QC",
+      "id": 2,
+      "logo": "assest/avatar/photo-men.jpg",
+      "coverImg": "assest/banner/images1.jpg"
+    },
+    {
+      "name": "naveen",
+      "role": "developer",
+      "email": "naveen@mail.com",
+      "password": "123456",
+      "mobile": "7410258963",
+      "address": "villupuram",
+      "pincode": "640235",
+      "bio": "MERN Stack",
+      "logo": "assest/avatar/logo4.jpg",
+      "id": 3,
+      "coverImg": "assest/banner/images5.jpg"
     }
- ]
+  ],
+  "posts": [
+    {
+      "img": "assest/banner/images2.jpg",
+      "post": "Users were able to add descriptions to questions. On December 8, 2015, these were limited to 800 characters, and questions themselves to 150, not affecting existing questions.[26] On August 3, 2017, question details were discontinued entirely and replaced with an optional source URL input field to provide context, reportedly to encourage users to phrase questions more descriptively. Existing question details were stored in comments under respective questions.[27]",
+      "imgName": "Image 2",
+      "userId": 3,
+      "id": 1,
+      "replaysComments": [
+        {
+          "user": 2,
+          "replays": "On February 9, 2017, Quora announced changes to their anonymity feature, detaching anonymous questions and edits from accounts. When asking or answering anonymously,"
+        }
+      ]
+    },
+    {
+      "img": "assest/banner/images1.jpg",
+      "post": " the same level of mainstream cultural dominance as sites like Twitter, which, at the time, had roughly 326 million registered users.[3][38] This may have been because a large number of registered users on the site did not use it regularly and many did not even know they had accounts since they had either created them unknowingly through other social media sites linked to Quora or created them years previously and forgotten about them",
+      "imgName": "Image 1",
+      "userId": 1,
+      "id": 2,
+      "replaysComments": [
+        {
+          "user": 3,
+          "replays": "an anonymous edit link is generated, only through which the question or answer can be edited in the future.[35] Since then, commenting anonymously and toggling"
+        }
+      ]
+    },
+    {
+      "img": "",
+      "post": "Quora announced that approximately 100 million user accounts were affected by a data breach.[38][41] The hacked information included users' names, email addresses",
+      "imgName": "",
+      "userId": 2,
+      "id": 3
+    }
+  ]
 }
